@@ -1,0 +1,7 @@
+discord.py==1.7.2
+praw==7.2.0
+prawcore==2.0.0
+requests==2.25.1
+six==1.16.0
+yarl==1.6.3
+youtube-dl==2021.6.6
