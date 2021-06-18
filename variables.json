@@ -1,0 +1,48 @@
+{
+  "token": "NzkwMjI5NDcwNjY5ODMyMjMy.X99kiw.EBvjfCFAToW_B2VP4CMuN3i1ifY",
+  "prefix": "-",
+  "version": 1.02,
+  "status": [
+    "your mom",
+    "your dad"
+  ],
+  "status_change_time": 10,
+  "developer_id": [],
+  "use_reddit": false,
+  "reddit_variables": {
+    "client_id": "",
+    "client_secret": "",
+    "username": "",
+    "password": "",
+    "user_agent": "",
+    "meme_download_limit": 69
+  },
+  "colour": {
+    "Lime": "0x00FF00",
+    "Red": "0xFF0000",
+    "Blue": "0x0000FF",
+    "Cyan": "0x00FFFF",
+    "Yellow": "0xFFFF00",
+    "Pink": "0xFF00FF",
+    "Green": "0x008000",
+    "Black": "0x000000",
+    "White": "0xFFFFFF",
+    "Grey": "0x808080",
+    "Silver": "0xC0C0C0",
+    "DBlue": "0x000080"
+  },
+  "mon": {
+    "1": "Jan",
+    "2": "Feb",
+    "3": "Mar",
+    "4": "Apr",
+    "5": "May",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Aug",
+    "9": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  }
+}
