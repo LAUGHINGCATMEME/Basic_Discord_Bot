@@ -20,11 +20,11 @@ class Help(commands.Cog):
                                                          f"help <command>` to get detailed view of that command",
                                colour=0xAAEEAA)
             em.add_field(name="Shit commands", value="ping, profile, tothedeveloper")
-            em.add_field(name="Fun", value="pp, gayrate, simprate, ask, meme, snipe, emojify, ")
+            em.add_field(name="Fun", value="pp, gayrate, simprate, ask, meme, snipe")
             em.add_field(name="NSFW", value="ass")
             em.add_field(name="Moderation", value="purge, kick, ban, unban, mute, unmute")
             em.set_footer(text="https://paypal.me/aumshreeshah")
-            await ctx.reply(f"Where you stuck step sista? :pinching_hand:<:trollface:849889411641507850>",
+            await ctx.reply(f"Where you stuck step sista? :pinching_hand:",
                             mention_author=False)
             await ctx.reply(embed=em, mention_author=False)
 
