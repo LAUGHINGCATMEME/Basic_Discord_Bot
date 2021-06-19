@@ -9,7 +9,7 @@ with open("variables.json", "r") as var_able:
 
 class Help(commands.Cog):
     """
-    This whole class focuses on the 'help' argument, it has my paypal as my footer init
+    This whole class focuses on the 'help' argument, it has my paypal as footer in every command.....
     """
     def __init__(self, client):
         client.remove_command("help")
