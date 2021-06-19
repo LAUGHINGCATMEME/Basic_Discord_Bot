@@ -30,7 +30,7 @@ class BotEvents(commands.Cog):
         @client.event
         async def on_command_error(ctx, error):
             if isinstance(error, commands.CommandNotFound):
-                await ctx.reply("No command found\nTry typing `Dad help`", mention_author=False)
+                await ctx.reply(f"No command found\nTry typing `{variables['preffix']} help`", mention_author=False)
 
 
 def setup(client):
