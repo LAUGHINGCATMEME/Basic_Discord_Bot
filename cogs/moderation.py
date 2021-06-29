@@ -72,11 +72,11 @@ class Moderation(commands.Cog):
         :return:
         """
         if amount > 420 or amount < 0:
-            await ctx.reply(f"**Clear amount must be between 1 - 6969**", mention_author=False)
+            await ctx.reply(f"**Clear amount must be between 1 - 420**", mention_author=False)
         else:
             amount += 1
             await ctx.channel.purge(limit=amount)
-            await ctx.channel.send(f"{amount} messages has been purged")
+            await ctx.channel.send(f"{amount - 1} messages has been purged")
 
     @purge.error
     async def clear_error(self, ctx, error):
